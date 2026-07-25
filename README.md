@@ -33,16 +33,7 @@ HashMap/
 
 ---
 
-## 📚 Solved Problems
 
-### Arrays
-
-| # | Problem | Approach | Time | Space |
-|---|---------|----------|------|-------|
-| 1920 | Build Array from Permutation | Extra Array | O(n) | O(n) |
-| 1920 | Build Array from Permutation | In-Place Encoding | O(n) | O(1) |
-
----
 
 ## 🎯 Goals
 
