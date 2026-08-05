@@ -47,3 +47,38 @@ class Solution {
         return count;
     }
 }
+
+
+/*
+----------------------------------------------------
+Approach 2: String Conversion
+----------------------------------------------------
+
+Idea:
+- Traverse every number in the array.
+- Convert each number into a String.
+- Check the length of the String.
+- If the length is even, increase the answer.
+
+Time: O(n × d)
+Space: O(d)
+*/
+
+class Solution {
+
+    public int findNumbers(int[] nums) {
+
+        int count = 0;
+
+        for (int num : nums) {
+
+            String s = Integer.toString(num);
+
+            if (s.length() % 2 == 0) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+}
