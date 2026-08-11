@@ -2,6 +2,7 @@
  * LeetCode 53 - Maximum Subarray
  * Link: https://leetcode.com/problems/maximum-subarray/
  *
+ * Approach: Kadane's Algorithm
  *
  * At every element:
  * - Continue the current subarray, or
@@ -17,10 +18,11 @@
 class Solution {
     public int maxSubArray(int[] nums) {
 
-        int sum = nums[0];
-        int max = nums[0];
+        int n = nums.length;
+        int max = Integer.MIN_VALUE;
+        int sum = 0;
 
-        for (int i = 1; i < nums.length; i++) {
+        for (int i = 0; i < n; i++) {
 
             sum = Math.max(nums[i], sum + nums[i]);
 
