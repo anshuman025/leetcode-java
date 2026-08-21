@@ -25,7 +25,7 @@
  * Space Complexity: O(1)
  *
  * Optimization:
- * Space-optimized Dynamic Programming.
+ * Space-optimized Dynamic Programming
  */
 
 class Solution {
